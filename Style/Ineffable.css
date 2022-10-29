@@ -1,0 +1,170 @@
+/* Add a black background color to the top navigation */
+
+
+.topnav {
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #707070;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 1.235;
+    color: #707070;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.334;
+    color: #2BA054;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #707070;
+}
+
+.image {
+    width: 100%;
+}
+
+section {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 24px;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+.grid-container3 {
+    display: grid;
+    margin-top: 24px;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+}
+
+li {
+    display: block;
+}
+
+ul {
+    display: contents;
+    text-align: left;
+}
+
+.grid-container1 {
+    display: grid;
+    margin-top: 24px;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.grid-item3 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#para {
+    text-align: left;
+}
+
+.icon {
+    width: 30%;
+    height: 30%;
+    border-radius: 60px;
+}
+
+h5 {
+    color: #707070;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #F1F1F1;
+    border-radius: 16px;
+    margin: 8px;
+}
+
+#button {
+    color: #fff;
+    background-color: #2BA054;
+    width: 30%;
+    line-height: 1.75;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: #000000;
+    color: white;
+}
+
+input {
+    padding: 18.5px 14px;
+    width: 80%
+}
+
+#form {
+    margin-top: 10%;
+}
+
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #F1F1F1;
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.img {
+    float: left
+}
+
+.imgSize {
+    width: 50%;
+    height: 50%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FFFFFF;
+}
